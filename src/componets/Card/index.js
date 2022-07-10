@@ -1,9 +1,11 @@
+import './styles.css';
+
 const Card = ({ item, onRemove = () => { } }) => {
 
     const keywords = item?.title?.split(' ')?.join(',')
 
     return (
-        <div id={item?.id} class="card" style={{ width: '25%', padding: 0 }}>
+        <div id={item?.id} class="wrapper-card">
             <img class="card-img-top" src={`https://loremflickr.com/320/240/ ${keywords}`} alt="Imagem de capa do card" />
             <div class="card-body">
                 <h5 class="card-title">{item?.title}</h5>

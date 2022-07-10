@@ -34,7 +34,7 @@ const List = () => {
 
     return (
         <div className="container">
-            <div className="col-6 offset-3 mt-5 text-center">
+            <div className="col-12 col-md-8 offset-md-2 col mt-5 text-center">
                 <h1 className="mb-2">Lista de desejos</h1>
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="Adicione um desejo"

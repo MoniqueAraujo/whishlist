@@ -1,0 +1,13 @@
+.wrapper-card {
+    width: 100% !important;
+    padding: 0;
+
+}
+
+
+@media (min-width: 767.98px) {
+    .wrapper-card {
+        width: 25% !important;
+        padding: 0;
+    }
+}
