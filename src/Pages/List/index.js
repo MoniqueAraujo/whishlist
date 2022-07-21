@@ -35,7 +35,7 @@ const List = () => {
     return (
         <div className="container">
             <div className="col-12 col-md-8 offset-md-2 col mt-5 text-center">
-                <h1 className="mb-2">Lista de desejos</h1>
+                <h1 className="mb-2" style={{ color: 'white' }}>Lista de desejos</h1>
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="Adicione um desejo"
                         value={wishItem}
@@ -55,7 +55,7 @@ const List = () => {
 
                 </div>
             </div>
-            <div className="row mt-5">{wishlist?.map(item =>
+            <div style={{ color: 'white' }} className="row mt-5">{wishlist?.map(item =>
                 <Card item={item} onRemove={(id) => removeWhishItem(id)} />
             )}
             </div>
